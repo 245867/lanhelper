@@ -36,3 +36,9 @@ build_mfc.bat
 - `LanShareMfc.vcxproj`：Visual Studio 工程文件。
 - `build_mfc.bat`：结束旧进程并编译 Release x64 版本。
 - `docs/lan-share-ui.png`：界面截图。
+
+## 作者与交流
+
+- 作者：Peanut Soft
+- QQ：245867
+- 交流 QQ 群：1103426302（[点击加入](https://qm.qq.com/q/Fv9KjpGCEq)）

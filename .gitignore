@@ -5,6 +5,7 @@ bin/
 *.lib
 *.exp
 http_server.exe
+LanShareMfc.exe
 1A-Apython_http_server.zip
 # Legacy browser/Python prototype files kept locally but not part of LanHelper.
 1.html

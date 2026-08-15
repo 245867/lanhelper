@@ -16,7 +16,7 @@
 
 ## 运行
 
-直接运行仓库根目录的 [`LanShareMfc.exe`](LanShareMfc.exe)。
+直接运行仓库根目录的 [`LanHelper.exe`](LanHelper.exe)。
 
 共享服务使用 TCP `8000` 端口，设备发现使用 UDP `48765` 端口。Windows 防火墙提示时，请允许局域网访问。
 
@@ -28,7 +28,7 @@
 build_mfc.bat
 ```
 
-脚本会结束旧的 `LanShareMfc.exe`/`http_server.exe` 进程，并生成 `bin\\x64\\Release\\LanShareMfc.exe`，随后可复制到项目根目录运行。
+脚本会结束旧的 `LanShareMfc.exe`/`http_server.exe` 进程，并生成 `bin\\x64\\Release\\LanShareMfc.exe`。仓库根目录的 `LanHelper.exe` 是已编译好的可运行成品。
 
 ## 项目结构
 
@@ -36,4 +36,3 @@ build_mfc.bat
 - `LanShareMfc.vcxproj`：Visual Studio 工程文件。
 - `build_mfc.bat`：结束旧进程并编译 Release x64 版本。
 - `docs/lan-share-ui.png`：界面截图。
-

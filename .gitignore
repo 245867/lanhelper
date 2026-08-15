@@ -1,0 +1,18 @@
+obj/
+bin/
+*.pdb
+*.ilk
+*.lib
+*.exp
+http_server.exe
+1A-Apython_http_server.zip
+# Legacy browser/Python prototype files kept locally but not part of LanHelper.
+1.html
+A.txt
+B.txt
+C.txt
+data/
+get_ip.py
+server.py
+start_server.bat
+stop_server.bat
